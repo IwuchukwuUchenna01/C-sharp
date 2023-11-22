@@ -44,7 +44,7 @@ namespace Wema.Bit
         }
     }*/
     public class User
-    {
+    {   
     
         public static void Main(string[] args)
         {
@@ -71,15 +71,15 @@ namespace Wema.Bit
                 new Payment(){ UserId = 5,PaymentId=16, PayAmount=20000}
                 };
             foreach (var item in listItems) {
-                //int x = int.Parse;
+                //converts the firt and last name to proper case
                 TextInfo FirstName1 = CultureInfo.CurrentCulture.TextInfo;
                 string FirstName2 = FirstName1.ToTitleCase(item.FirstName);
                 TextInfo LastName1 = CultureInfo.CurrentCulture.TextInfo;
                 string LastName2 = LastName1.ToTitleCase(item.LastName);
-                Console.WriteLine($" UserId:{item.UserId}\n Email:{item.Email}\n FirstName: {FirstName2} \n LastName: {LastName2} ");
+                Console.WriteLine($" UserId:{item.UserId}\n Email:{item.Email}\n FirstName: {FirstName2} \n LastName: {LastName2} \n Transaction date:{DateTime.Now} ");
                 foreach(var x in list)
                 {
-                    if (x.UserId == item.UserId) Console.WriteLine( $" Amount paid: {x.PayAmount }\n PaymentId: {x.PaymentId}");
+                    if (x.UserId == item.UserId) Console.WriteLine( $" Amount paid: ${x.PayAmount }\n PaymentId: {x.PaymentId}");
                     
                 }
                 Console.WriteLine("----------------------------------------------------------");

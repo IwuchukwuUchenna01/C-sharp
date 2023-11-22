@@ -14,6 +14,6 @@ namespace wema.BIT.modules
         public int PaymentId { get; set; }
         public int PayAmount { get; set; }
 
-        public virtual Users Users { get; set; }
+        public virtual Users Users { get; set; } 
     }
 }
