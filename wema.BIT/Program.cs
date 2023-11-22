@@ -9,40 +9,6 @@ using wema.BIT.modules;
 
 namespace Wema.Bit
 {
-    /*namespace Wema.Bit.Users
-    public class User
-    {
-        public static void Main(string[] args)
-
-        {
-            Console.WriteLine("Hello world!");
-
-            Payment.Greet();
-            Payment p = new Payment();
-            p.GreetMe();
-
-            string greet = p.GreetMe();
-
-            Console.WriteLine(greet);
-
-        }
-    }
-
-    public class Payment
-    {
-        public static void Greet()
-        {
-            Console.WriteLine("Good Afternoon");
-        }
-
-        public string GreetMe()
-        {
-            Console.WriteLine("Good Afternoon");
-
-            return "Good Afternoon ma";
-
-        }
-    }*/
     public class User
     {   
     
