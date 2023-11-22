@@ -1,2 +1,3 @@
 # C-sharp
-a simple program to calculate the area of a triangle
+a program and define two classes User and Payment.
+User class is related to Payment by UserId.
